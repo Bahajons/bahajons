@@ -1,0 +1,1 @@
+Faqatgina JS Kodlarini qoldirganman
