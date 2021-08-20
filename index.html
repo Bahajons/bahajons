@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Target</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="container">
+			<div class="images">
+				<h2>Hello Worlds</h2>
+				<div class="row">
+					<div class="column">
+						<img src="images/120.jpg">
+						<img src="images/120.jpg">
+					</div>
+					<div class="column">
+						<img src="images/80.jpg">
+						<img src="images/80.jpg">
+						<img src="images/80.jpg">
+					</div>
+					<div class="column">
+						<img src="images/120.jpg">
+						<img src="images/120.jpg">
+					</div>
+				</div>
+				<div class="w">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<style type="text/css">
+		 .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  .w{
+  	display: flex;
+  	align-items: baseline;
+  	height: 200px;
+  }
+
+  /* Create four equal columns that sits next to each other */
+  .column {
+    display: flex;
+    flex-direction: column;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  .column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+		/*.container{
+			width: 1200px;
+		}
+		*{
+			box-sizing: border-box;
+		}
+		.row{
+			display: flex;
+		}
+		.column{
+			flex: 25%;
+		}
+		.column img{
+			vertical-align: middle;
+		}
+*/
+	</style>
+
+
+
+	<style type="text/css">
+		
+	</style>
+
+</body>
+</html>
