@@ -1,1 +1,1 @@
-Faqatgina JS Kodlarini qoldirganman
+Read me
